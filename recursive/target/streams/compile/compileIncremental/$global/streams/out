@@ -1,0 +1,47 @@
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set(/home/quentin/coursera/scala/current/src/main/scala/common/package.scala, /home/quentin/coursera/scala/current/src/main/scala/recfun/Main.scala)
+[debug] 	modified: Set()
+[debug] Invalidated products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set(/home/quentin/coursera/scala/current/src/main/scala/common/package.scala, /home/quentin/coursera/scala/current/src/main/scala/recfun/Main.scala)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated sources: Set(/home/quentin/coursera/scala/current/src/main/scala/common/package.scala, /home/quentin/coursera/scala/current/src/main/scala/recfun/Main.scala)
+[debug] Recompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources
+[info] Compiling 2 Scala sources to /home/quentin/coursera/scala/current/target/scala-2.11/classes...
+[debug] Getting compiler-interface from component compiler for Scala 2.11.7
+[debug] Getting compiler-interface from component compiler for Scala 2.11.7
+[debug] Running cached compiler 77da63fb, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-deprecation
+[debug] 	-bootclasspath
+[debug] 	/usr/lib/jvm/java-7-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-7-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-7-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-7-oracle/jre/classes:/home/quentin/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+[debug] 	-classpath
+[debug] 	/home/quentin/coursera/scala/current/target/scala-2.11/classes:/home/quentin/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.4.jar:/home/quentin/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.2.jar:/home/quentin/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar:/home/quentin/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar
+[debug] Scala compilation took 5.913784427 s
+[debug] Invalidating /home/quentin/coursera/scala/current/src/main/scala/common/package.scala...
+[debug] Invalidating (transitively) by inheritance from /home/quentin/coursera/scala/current/src/main/scala/common/package.scala...
+[debug] Initial set of included nodes: Set(/home/quentin/coursera/scala/current/src/main/scala/common/package.scala)
+[debug] Invalidated by transitive inheritance dependency: Set(/home/quentin/coursera/scala/current/src/main/scala/common/package.scala)
+[debug] The /home/quentin/coursera/scala/current/src/main/scala/common/package.scala source file has the following regular definitions changed:
+[debug] 	notify, package, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, resourceAsStreamFromSrc, notifyAll, isInstanceOf, ???, ==, clone, subFile, toString, !=, getClass, ne, eq, ##, finalize, hashCode, ***.
+[debug] All member reference dependencies will be considered within this context.
+[debug] Invalidating /home/quentin/coursera/scala/current/src/main/scala/recfun/Main.scala...
+[debug] Invalidating (transitively) by inheritance from /home/quentin/coursera/scala/current/src/main/scala/recfun/Main.scala...
+[debug] Initial set of included nodes: Set(/home/quentin/coursera/scala/current/src/main/scala/recfun/Main.scala)
+[debug] Invalidated by transitive inheritance dependency: Set(/home/quentin/coursera/scala/current/src/main/scala/recfun/Main.scala)
+[debug] The /home/quentin/coursera/scala/current/src/main/scala/recfun/Main.scala source file has the following regular definitions changed:
+[debug] 	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, pascal, balance, main, notifyAll, isInstanceOf, ==, clone, Main, toString, !=, getClass, countChange, ne, eq, ##, finalize, hashCode.
+[debug] All member reference dependencies will be considered within this context.
+[debug] New invalidations:
+[debug] 	Set()
+[debug] Initial set of included nodes: Set()
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] 	Set()
+[debug] All newly invalidated sources after taking into account (previously) recompiled sources:Set()

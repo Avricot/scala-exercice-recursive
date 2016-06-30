@@ -1,0 +1,8 @@
+package objsets
+
+/**
+  *
+  */
+object test {
+
+}
